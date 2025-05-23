@@ -1,0 +1,16 @@
+<%- include("partials/header") %>
+<div class="container">
+  <h2>Gerenciar Carros</h2>
+  <a href="/carros/novo">Cadastrar Novo Carro</a>
+  <ul>
+    <% carros.forEach(c => { %>
+      <li>
+        <%= c.marca %> - <%= c.modelo %> - <%= c.ano %>
+        <a href="/carros/editar/<%= c._id %>">Editar</a>
+        <form method="POST" action="/carros/remover/<%= c._id %>" style="display:inline;">
+          <button type="submit">Remover</button>
+        </form>
+      </li>
+    <% }) %>
+  </ul>
+</div>

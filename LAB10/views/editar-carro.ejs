@@ -1,0 +1,10 @@
+<%- include("partials/header") %>
+<div class="container">
+  <form method="POST">
+    <input name="marca" value="<%= carro.marca %>"><br>
+    <input name="modelo" value="<%= carro.modelo %>"><br>
+    <input name="ano" value="<%= carro.ano %>" type="number"><br>
+    <input name="qtde_disponivel" value="<%= carro.qtde_disponivel %>" type="number"><br>
+    <button type="submit">Atualizar</button>
+  </form>
+</div>

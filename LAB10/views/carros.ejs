@@ -1,0 +1,17 @@
+<%- include("partials/header") %>
+<div class="container">
+  <h2>Lista de Carros</h2>
+  <ul>
+    <% carros.forEach(c => { %>
+      <li>
+        <%= c.marca %> - <%= c.modelo %> - <%= c.ano %> - 
+        <%= c.qtde_disponivel === 0 ? "Esgotado" : c.qtde_disponivel %>
+        <% if (c.qtde_disponivel > 0) { %>
+          <form method="POST" action="/carros/vender/<%= c._id %>">
+            <button type="submit">Vender</button>
+          </form>
+        <% } %>
+      </li>
+    <% }) %>
+  </ul>
+</div>

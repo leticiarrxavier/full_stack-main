@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(255, 157, 230);
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  
+  table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top:
+  }
+
+table, th, td {
+    border: 1px solid #ffffff;
+    width: 50%;
+
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    color: #ffffff
+}
+
+th {
+    background-color: #333;
+    color: rgb(250, 250, 250);
+}
+ 
+
+table tbody td:hover {
+    background-color:#b7fdec
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color:aqua(46, 46, 46);
+
+}

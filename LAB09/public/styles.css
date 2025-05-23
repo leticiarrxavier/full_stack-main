@@ -1,0 +1,28 @@
+body {
+  background: #ecc4df;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+a, button {
+  background: #ffcbf6;
+  color: white;
+  padding: 6px 10px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+form, .post {
+  background: white;
+  padding: 10px;
+  margin: 10px auto;
+  width: 90%;
+  max-width: 400px;
+}
+
+input, textarea {
+  width: 100%;
+  margin: 5px 0;
+}

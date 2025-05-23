@@ -1,0 +1,11 @@
+canvas {
+    margin-right: 50px; /* Espaço de 20px entre os dois canvases */
+}
+
+#canvas1{
+    background-color: white;
+}
+
+#canvas2{
+    background-color: aquamarine;
+}
