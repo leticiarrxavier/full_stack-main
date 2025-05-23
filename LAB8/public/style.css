@@ -1,0 +1,15 @@
+body {
+    background-color: #ffb3e6;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 10px;
+  }
+  

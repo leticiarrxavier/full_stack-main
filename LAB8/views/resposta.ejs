@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Status do Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1><%= status %></h1>
+    <% if (user) { %>
+      <p>Bem-vindo, <strong><%= user %></strong>!</p>
+    <% } %>
+  </div>
+</body>
+</html>
